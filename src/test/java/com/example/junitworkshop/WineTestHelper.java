@@ -13,7 +13,7 @@ public class WineTestHelper {
         wine.setName("Pomerol");
         wine.setHouse("Château Petrus");
         wine.setMilliliters(750);
-        wine.setGrapes(List.of("Cabarnet Sauvignon", "Merlot"));
+        wine.setGrapes(List.of("Cabernet Sauvignon", "Merlot"));
 
         return wine;
     }

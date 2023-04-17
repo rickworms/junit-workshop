@@ -18,7 +18,7 @@ public class WineTest {
         assertEquals("Pomerol", wine.getName());
         assertEquals("Château Petrus", wine.getHouse());
         assertEquals(750, wine.getMilliliters());
-        assertEquals(List.of("Cabarnet Sauvignon", "Merlot"), wine.getGrapes());
+        assertEquals(List.of("Cabernet Sauvignon", "Merlot"), wine.getGrapes());
     }
 
     @Test
