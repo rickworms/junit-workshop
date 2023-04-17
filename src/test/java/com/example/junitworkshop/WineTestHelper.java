@@ -1,6 +1,6 @@
 package com.example.junitworkshop;
 
-import java.util.List;
+import java.util.Arrays;
 
 import com.example.junitworkshop.model.Wine;
 
@@ -13,7 +13,7 @@ public class WineTestHelper {
         wine.setName("Pomerol");
         wine.setHouse("Château Petrus");
         wine.setMilliliters(750);
-        wine.setGrapes(List.of("Cabernet Sauvignon", "Merlot"));
+        wine.setGrapes(Arrays.asList("Cabernet Sauvignon", "Merlot"));
 
         return wine;
     }

@@ -3,7 +3,7 @@ package com.example.junitworkshop.model;
 import static com.example.junitworkshop.WineTestHelper.pomerol;
 import static org.junit.Assert.assertEquals;
 
-import java.util.List;
+import java.util.Arrays;
 
 import org.junit.Test;
 
@@ -18,7 +18,7 @@ public class WineTest {
         assertEquals("Pomerol", wine.getName());
         assertEquals("Château Petrus", wine.getHouse());
         assertEquals(750, wine.getMilliliters());
-        assertEquals(List.of("Cabernet Sauvignon", "Merlot"), wine.getGrapes());
+        assertEquals(Arrays.asList("Cabernet Sauvignon", "Merlot"), wine.getGrapes());
     }
 
     @Test
